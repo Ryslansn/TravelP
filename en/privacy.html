@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — ATLAS</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main>
+
+<nav class="langs">English · <a href="../uk/privacy.html">Українська</a></nav>
+
+<h1>ATLAS Privacy Policy</h1>
+<p class="updated">Last updated 31 August 2026.</p>
+
+<p class="lede">ATLAS is a personal map of the places you have been. Everything
+you add is private by default — your profile, your places and your photos are
+visible only to you until you choose to publish them.</p>
+
+<div class="fill">
+<strong>Fill in before publishing:</strong> the name of the person or company
+acting as data controller, a postal address, and a support email. Placeholders
+are marked <code>[FILL IN]</code>.
+</div>
+
+<h2>1. Who processes your data</h2>
+<p>The data controller is <code>[FILL IN: person or company]</code>,
+<code>[FILL IN: address]</code>. For any privacy question, contact
+<code>[FILL IN: email]</code>.</p>
+
+<h2>2. What we collect</h2>
+
+<h3>Account</h3>
+<ul>
+<li>your email address, used solely to sign you in with a one-time link or code;</li>
+<li>an internal user identifier and its mapping to your authentication record.</li>
+</ul>
+
+<h3>Profile</h3>
+<ul>
+<li>username, display name, bio;</li>
+<li>an avatar, if you add one;</li>
+<li>visibility settings and your chosen map style.</li>
+</ul>
+
+<h3>Your places</h3>
+<ul>
+<li>coordinates you place by hand on the map;</li>
+<li>date and time of the visit, if you provide them;</li>
+<li>title, place types, country and city;</li>
+<li>your note;</li>
+<li>photos you attach.</li>
+</ul>
+
+<h3>Technical</h3>
+<ul>
+<li>error and crash records containing no personal data.</li>
+</ul>
+
+<h2>3. What we do not collect</h2>
+<p>This is the current state of the app rather than a promise, and it is
+verifiable: the shipped build declares no location permission at all.</p>
+<ul>
+<li><strong>Device location.</strong> The app never requests or reads it. A
+place's coordinates come only from where you tapped on the map;</li>
+<li>background location or route tracking — neither exists;</li>
+<li>advertising identifiers, contacts, calendar, microphone;</li>
+<li>payment data — the app is free and has no purchases;</li>
+<li>biometrics or identity documents.</li>
+</ul>
+
+<h2>4. Photos</h2>
+<p>A photo is processed on your device before it is sent: it is compressed, and
+its EXIF metadata — including capture coordinates, camera model and timestamp —
+is stripped. Only the cleaned image reaches the server.</p>
+<p>Files are held in private storage. Links to them are short-lived and signed,
+and the database stores an object key and a checksum rather than a permanent
+address. Photos are deleted along with their place or your account.</p>
+
+<h2>5. Why we process it</h2>
+<table>
+<tr><th>Purpose</th><th>Legal basis</th></tr>
+<tr><td>Create your account and sign you in</td><td>performance of a contract</td></tr>
+<tr><td>Show your map, places and statistics</td><td>performance of a contract</td></tr>
+<tr><td>Show your profile to others</td><td>consent — only once you enable public visibility</td></tr>
+<tr><td>Fix errors and crashes</td><td>legitimate interest</td></tr>
+</table>
+
+<h2>6. Who receives data</h2>
+<p>We do not sell data and do not share it with advertising networks. The
+processors the service depends on:</p>
+<ul>
+<li><strong>Supabase</strong> — database, file storage and authentication;</li>
+<li><strong>MapTiler</strong> — map tiles. It receives requests for the map
+fragments you view, but not your places, photos or notes;</li>
+<li><strong>Apple and Google</strong> — app distribution.</li>
+</ul>
+
+<h2>7. Retention</h2>
+<p>Data lives as long as your account does. Once you request deletion, your
+profile and share links become unavailable immediately, and records and files
+are removed by a deletion job. Backups are overwritten within
+<code>[FILL IN: period, typically 30 days]</code>.</p>
+
+<h2>8. Your rights</h2>
+<ul>
+<li>obtain a copy of your data — the app offers an export request;</li>
+<li>correct your data — by editing your profile and places;</li>
+<li>delete your account — <a href="delete-account.html">how to do it</a>;</li>
+<li>withdraw consent to publication — by turning off the public profile;</li>
+<li>lodge a complaint with your local supervisory authority.</li>
+</ul>
+
+<h2>9. Security</h2>
+<p>Row-level access control means one user cannot read another's records even
+outside the app. Public data is served through a separate view listing exactly
+which fields are exposed. Privileged keys are used only on the server and never
+ship inside the app. Coordinates, email addresses and note contents are never
+written to logs or sent to analytics.</p>
+
+<h2>10. Children</h2>
+<p>The service is not directed to people under
+<code>[FILL IN: 13 or 16]</code>. We do not knowingly collect their data.</p>
+
+<h2>11. Changes</h2>
+<p>We will announce material changes in the app. The revision date is always at
+the top of this page.</p>
+
+<hr>
+<footer>ATLAS · <a href="../uk/privacy.html">Українською</a> ·
+<a href="support.html">Support</a> · <a href="terms.html">Terms</a></footer>
+
+</main>
+</body>
+</html>
